@@ -2,7 +2,7 @@
 
 int power(int m, int n);
 
-int main(){
+main(){
 
 	int i;
 	for(i=0; i<10; i++){
@@ -11,10 +11,10 @@ int main(){
 	return 0;
 }
 
-int power(int m, int n){
+int power(int base, int n){
 	int i, result=1;
 	for(i=0; i<n; i++){
-		result = result * m;
+		result = result * base;
 	}
 	return result;
 }
